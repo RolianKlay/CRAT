@@ -1,0 +1,3 @@
+python train_flops.py --epochs 300 --num_classes 3 --b 1 --seed 42 --cfg configs/vt_unet_base.yaml --lr 1e-4 --topk 16
+
+python train.py --epochs 300 --num_classes 3 --b 1 --seed 42 --cfg configs/vt_unet_base.yaml --lr 1e-4 --topk 16
